@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+}
+#home{
+    /* background-color: azure; */
+    background-color: #CCB3A6;
+    position: relative;
+}
+header{
+    height: 4.375em;
+    width: 100%;
+    background-color: #FFBF00;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+/* -------------header section------------------------------------ */
+.title{
+    font-size: 2em;
+    position: absolute;
+top: 1em;
+}
+.tie{
+    /* position: absolute; */
+    font-size: 1.125em;
+    font-family: "Roboto";  
+    position: absolute;
+    top:1.25em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5b6261;
+
+}
+.ruleContainer{
+    position: absolute;
+    right: 3em;
+    cursor: pointer;
+    text-decoration: none;
+    /* background-color: #7A0909; */
+}
+.rule{
+    flex-direction: column;
+    /* position: absolute; */
+    /* right: 3em; */
+    align-items: center;
+    /* cursor: pointer; */
+}
+.info{
+    font-size: 2.8em;
+    font-family: "Roboto";
+    line-height: 1em;
+}
+.infoWords{
+    color: #0A332F;
+    font-family: "roboto";
+    line-height: 1em;
+    font-size: 1.125em;
+}
+/* --------------------hero section-------------------------------- */
+.hero{
+    /* background-color: #067918; */
+    width: 100%;
+    padding: 1.3125em 0;
+}
+/* .pageTitle{
+    text-align: center;
+    font-size: 3em;
+font-weight: bolder;
+} */
+.pageParagraph{
+    text-align: center;
+    font-size: 1.125em;
+    font-family: 'Roboto';
+    /* font-weight: 300; */
+    /* line-height: 21px; */
+    /* identical to box height */
+
+    color: #0A332F;
+
+}
+/* ----------------scores section---------------------------------- */
+.scoreContainer{
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: azure; */
+    justify-content: space-between;
+    position: relative;
+    /* margin-top: 2em; */
+    height: 15em;
+}
+
+.scoreArea{
+    width:12.5em;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1875em;
+    /* top: 6em; */
+    position: absolute;
+    bottom: 0;
+    /* background-color: tomato; */
+    /* padding-top: 1em; */
+}
+.computer{
+    right: 0;
+}
+
+.selection{
+    color: #7A0909;
+    font-size: 1.875em;
+    font-weight: bold;
+}
+.aside{
+    width:11.8125em;
+    height: 12.75em;
+    /* position: absolute; */
+    position: relative;
+   /* bottom: .325em; */
+    /* background: #148475; */
+    /* background: #00ff26; */
+    background: #FFBF00;
+    border-radius: 1.25em;
+    border: 0.125em solid #0D093A;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.asideBorder{
+    border: 0.125em solid #067918;
+}
+.score{
+    margin-top: 0.625em;
+    font-size: 3.125em;
+}
+.playScore, .winnerPick{
+    color:#067918;
+}
+.wordScore{
+    font-size: 1.875em;
+    /* color: #0D093A; */
+}
+.winnerPick{
+    color:#067918;
+    /* font-size: 2em; */
+}
+
+/* --------------player options section--------------------------- */
+.playerOptionsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* position: relative; */
+    margin-top: .875em;
+}
+.playerOptionsTitle{
+    font-size: 1.5em;
+}
+.playerOptions{
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: center;
+    gap: 1em;
+}
+.playerOptions img{
+    cursor: pointer;
+}
+.anotherRound{
+    display: none;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 10px; */
+    /* gap: 0.625em; */
+    /* position: absolute; */
+    /* margin-top: 2em; */
+    width: 14em;
+    height: 2em;
+    background: #FFBF00;
+    /* background: #0090A5; */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    border: none;
+cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+/* -------------------------------footer---------------------- */
+.footer{
+width: 100%;
+background-color: #0D093A;
+height: 3em;
+/* margin-top: 1em; */
+position: absolute;
+bottom: -5em;
+}
+.again{
+    display: block;
+}
+/* ----------------------------------------------------------- */
+.darkPurple{
+    color: #0D093A;
+}
+
+.flx{
+    display: flex;
+}
