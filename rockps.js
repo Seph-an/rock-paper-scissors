@@ -191,8 +191,8 @@ function getPlayerSelection() {
       playerPick.textContent = p;
       computerPick.textContent = c;
 
-      console.log("player choice:", p);
-      console.log("comp choice:", c);
+      // console.log("player choice:", p);
+      // console.log("comp choice:", c);
       // return selection;
       playRound(p, c); //must be called before below func
       //else, the winner isnt dclared on the fifth point.
@@ -229,9 +229,9 @@ function playRound(p, c) {
   }
 
   playerScore.textContent = playerPoint;
-  console.log("player points:", playerPoint);
+  // console.log("player points:", playerPoint);
   compScore.textContent = compPoint;
-  console.log("computer points", compPoint);
+  // console.log("computer points", compPoint);
 }
 
 // getWinner(playerPoint, compPoint);
@@ -241,14 +241,14 @@ function getWinner(playerPoint, compPoint) {
   if (playerPoint == 5 || compPoint == 5) {
     anotherRound.classList.add("again");
     if (playerPoint > compPoint) {
-      console.log("You are the winner!!!!");
+      // console.log("You are the winner!!!!");
       playerPick.textContent = "Winner!!!";
       playerPick.classList.add("winnerPick"); //add green color to winner
       aside1.classList.add("asideBorder");
       playerScore.classList.add("playScore");
       computerPick.textContent = "";
     } else {
-      console.log("You lose the game!");
+      // console.log("You lose the game!");
       computerPick.textContent = "Winner!!!";
       computerPick.classList.add("winnerPick"); //add green color to winner
       aside2.classList.add("asideBorder");
